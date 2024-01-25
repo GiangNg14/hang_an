@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="homepage.css">
+    <title>CLB Bóng đá SHB Đà Nẵng</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container-fluid" style="background-color: #3E4095;opacity: 0.9;">
+            <div class="container" style="padding: 8px 0px;">
+                <div class="row">
+                    <div class="col-lg-2 ">
+                        <img src="./icon-head/icons8-phone-16.png" alt="">
+                        <span class="text_white font_roboto font_16px">02366558333</span>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <img src="./icon-head/icons8-mail-16.png" alt="">
+                        <span class="text_white font_roboto font_16px">contact@shbdanangfc.com.vn</span>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-4" style="position: relative;">
+                        <input class="input_search font_roboto text_white" type="text" value="Nhập từ khóa tìm kiếm">
+                        <img style="position: absolute;margin-left: 340px; top:3px"
+                            src="./icon-head/icons8-search-17.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="#"><img src="./icon-head/face2-0207.png" alt=""></a>
+                        <a href="#"><img src="./icon-head/insta2-4882.png" alt=""></a>
+                        <a href="#"><img src="./icon-head/witter2-2632.png" alt=""></a>
+                        <a href="#"><img src="./icon-head/vector-smart-object3-1602.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-color: #F77923;">
+            <div class="container" style="padding: 6px 0px;">
+                <div class="col-lg-3">
+                    <a href="homepage.html"><img width="200px" height="60px"
+                            src="./icon-head/logo-shb-da-nang-4288-2-9189.png" alt=""></a>
+                </div>
+                <div class="col-lg-2" style="margin-top: 18px;position: relative;">
+                    <div class="introduce" style="height: 50px;text-align: center;"><a class="font_roboto text_white "
+                            style="font-size: 15px; font-weight: 500;text-decoration: none;" href="">GIỚI THIỆU <img
+                                src="./icon-head/icons8-down-16.png" alt=""></a>
+                    </div>
+                    <ul class="head_introduce">
+                        <li><a href="VeChungToi.html">Về Chúng Tôi</a></li>
+                        <li><a href="ThanhVienDoiBong.html">Thành Viên Đội Bóng</a></li>
+                        <li><a href="TrungTamDaoTaoTre.html">Trung Tâm Đào Tạo Trẻ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1" style="width: 150px;margin-top: 18px">
+                    <a class="text_white font_roboto" style="text-decoration: none;font-size: 15px;" href="CacGiaiDau.html">CÁC GIẢI
+                        ĐẤU</a>
+                </div>
+                <div class="col-lg-2" style="margin-top: 18px">
+                    <a class="text_white font_roboto" style="text-decoration: none;font-size: 15px;" href="DaoTaoTuyenSinh.html">ĐÀO TẠO -
+                        TUYỂN SINH</a>
+                </div>
+                <div class="col-lg-1" style="margin-top: 18px">
+                    <a class="text_white font_roboto" style="text-decoration: none;font-size: 15px;" href="ThuVien.html">THƯ
+                        VIỆN</a>
+                </div>
+                <div class="col-lg-1" style="margin-top: 18px;width: 120px;">
+                    <a class="text_white font_roboto" style="text-decoration: none;font-size: 15px;" href="NhaTaiTro.html">NHÀ TÀI
+                        TRỢ</a>
+                </div>
+                <div class="col-lg-1" style="margin-top: 18px;width: 120px;">
+                    <a class="text_white font_roboto" style="text-decoration: none;font-size: 15px;" href="https://vebongda.shbdanangfc.com.vn/">VÉ BÓNG
+                        ĐÁ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body_home">
+        <div class="body-head">
+            <div class="container-fluid" style="padding: 0; position: relative;">
+                <img onclick="prev()" style="position: absolute; left: 3%; transform: translateX(-50%);top: 35%;"
+                    src="./img-home/icons8-prev-100.png" alt="">
+                <img class="child_img" src="./img-home/home_head1.jpg" id="img_main" alt="">
+                <img onclick="next()" style="position: absolute; right: 3%; transform: translateX(50%);top: 35%;"
+                    src="./img-home/icons8-next-100.png" alt="">
+                <div class="row">
+                    <div class="child-slide"></div>
+                </div>
+            </div>
+        </div>
+        <div class="body-news">
+            <div class="container-fluid" style="background-color: #F77923;padding: 40px 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 ">
+                            <a href=""><img style="max-width: 100%; height: auto;position: relative;opacity: 0.9;"
+                                    src="./img-home/img-home-news/anh1.jpg" alt="">
+                                <h2 class="text_white font_roboto" style="position: absolute;top:85%;left: 5%;">SHB Đà
+                                    Nẵng vững vàng ngôi đầu</h2>
+                            </a>
+                        </div>
+                        <div class="col-lg-5" style="margin-top:-18px">
+                            <table class="bxh_vdqg">
+                                <tr>
+                                    <div style="background-color: #3E4095;height:50px;">
+                                        <h1 class="text_white font_roboto"
+                                            style="font-size: 20px;padding-top: 15px;text-align: center;">BẢNG XẾP HẠNG
+                                            HNQG BIA SAO VÀNG 2023/24</h1>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <th>#</th>
+                                    <th> Đội bóng</th>
+                                    <th>Trận</th>
+                                    <th>+/-</th>
+                                    <th>Điểm</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>SHBĐN</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>BR-VT</td>
+                                    <td>4</td>
+                                    <td>7</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Long An</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Huế</td>
+                                    <td>4</td>
+                                    <td>2</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>PĐ.Ninh Bình</td>
+                                    <td>5</td>
+                                    <td>-1</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Đồng Nai</td>
+                                    <td>5</td>
+                                    <td>-5</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>TT.Bình Phước</td>
+                                    <td>5</td>
+                                    <td>2</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Hòa Bình</td>
+                                    <td>5</td>
+                                    <td>-3</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>PVF-CAND</td>
+                                    <td>4</td>
+                                    <td>0</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Đồng Tháp</td>
+                                    <td>4</td>
+                                    <td>-3</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Phú Thọ</td>
+                                    <td>5</td>
+                                    <td>-12</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="row" id="imageRow">
+                                <div class="col-lg-6 articles" style="padding: 5px;"><img id="img-home-news"
+                                        src="./img-home/img-home-news/anh2.jpg" alt="Image">
+                                    <a class="text_white font_roboto title_news" style="text-decoration: none">
+                                        <h4 style="margin-top:-10px">SHB Đà Nẵng giành quyền đi tiếp tại Cúp Quốc gia
+                                        </h4>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 articles" style="padding: 5px;"><img id="img-home-news"
+                                        src="./img-home/img-home-news/anh3.jpg" alt="Image">
+                                    <a class="text_white font_roboto title_news" style="text-decoration: none">
+                                        <h4 style="margin-top:-10px">Hòa PVF-CAND, CLB Đà Nẵng giữ ngôi đầu giải Hạng
+                                            nhất quốc gia 2023/24</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row" id="imageRow">
+                                <div class="col-lg-6 articles" style="padding: 5px;"><img id="img-home-news"
+                                        src="./img-home/img-home-news/anh4.jpg" alt="Image">
+                                    <a class="text_white font_roboto title_news" style="text-decoration: none">
+                                        <h4 style="margin-top:-10px">SHB Đà Nẵng chia điểm trước Trường Tươi Bình Phước
+                                        </h4>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 articles" style="padding: 5px;"><img id="img-home-news"
+                                        src="./img-home/img-home-news/anh5.jpg" alt="Image">
+                                    <a class="text_white font_roboto title_news" style="text-decoration: none">
+                                        <h4 style="margin-top:-10px">SHB Đà Nẵng thắng Đồng Tháp 2-0</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row" id="imageRow">
+                                <div class="col-lg-6 articles" style="padding: 5px;"><img id="img-home-news"
+                                        src="./img-home/img-home-news/anh6.jpg" alt="Image">
+                                    <a class="text_white font_roboto title_news" style="text-decoration: none">
+                                        <h4 style="margin-top:-10px">SHB Đà Nẵng đánh bại Huế trong ngày khai mạc mùa
+                                            giải mới</h4>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 articles" style="padding: 5px;"><img id="img-home-news"
+                                        src="./img-home/img-home-news/anh7.jpg" alt="Image">
+                                    <a class="text_white font_roboto title_news" style="text-decoration: none">
+                                        <h4 style="margin-top:-10px">Khai mạc giải hạng Nhất: Khát vọng bóng đá Đà Nẵng
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row" id="imageRow">
+                                <div class="col-lg-6 articles" style="padding: 5px;"><img id="img-home-news"
+                                        src="./img-home/img-home-news/anh8.jpg" alt="Image">
+                                    <a class="text_white font_roboto title_news" style="text-decoration: none">
+                                        <h4 style="margin-top:-10px">Chủ tịch CLB bóng đá SHB Đà Nẵng Lê Văn Hiểu: Đề
+                                            nghị đổi tên sân Hòa Xuân thành Chi Lăng là của nhân dân Đà Nẵng</h4>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 articles" style="padding: 5px;"><img id="img-home-news"
+                                        src="./img-home/img-home-news/anh9.jpeg" alt="Image">
+                                    <a class="text_white font_roboto title_news" style="text-decoration: none">
+                                        <h4 style="margin-top:-10px">Toàn văn phát biểu của Chủ tịch CLB SHB Đà Nẵng Lê
+                                            Văn Hiểu tại Lễ xuất quân mùa giải 2023-2024</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="top-ghi-ban">
+                                <div class="title_ghi_ban text_white">
+                                    <h3>TOP GHI BÀN HNQG BIA SAO VÀNG 2023/24</h3>
+                                </div>
+                                <div class="cau_thu_ghi_ban">
+                                    <div class="cau_thu_1" >
+                                        <div class="row" style="background-color: #F77923;">
+                                            <img class="img_cau_thu col-lg-3"
+                                                src="./img-home/img-cau-thu/16-pham-van-huu-6488.png" alt="">
+                                            <div class="ban_thang font_roboto">
+                                                <h1>3</h1>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="ten_ct font_roboto font_16px"
+                                                style="background-color: white;height: 42px;padding: 9px;"><span>Phạm
+                                                    Văn Hữu</span>
+                                                <span style="float: right;">Bàn thắng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cau_thu_2">
+                                        <div class="row" style="background-color: #F77923;">
+                                            <img class="img_cau_thu col-lg-3"
+                                                src="./img-home/img-cau-thu/11-phan-van-long-6889.png" alt="">
+                                            <div class="ban_thang font_roboto">
+                                                <h1>2</h1>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="ten_ct font_roboto font_16px"
+                                                style="background-color: white;height: 42px;padding: 9px;"><span>Phan Văn Long</span>
+                                                <span style="float: right;">Bàn thắng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cau_thu_2">
+                                        <div class="row" style="background-color: #F77923;">
+                                            <img class="img_cau_thu col-lg-3"
+                                                src="./img-home/img-cau-thu/21-nguyen-phi-hoang-0586.png" alt="">
+                                            <div class="ban_thang font_roboto">
+                                                <h1>2</h1>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="ten_ct font_roboto font_16px"
+                                                style="background-color: white;height: 42px;padding: 9px;"><span>Nguyễn Phi Hoàng</span>
+                                                <span style="float: right;">Bàn thắng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text_white font_roboto">
+                                    <h4 style="text-align: center;padding-bottom: 35px;">Xem chi tiết <img src="./icon-head/icons8-arrow-right-25.png" alt=""></h4></div>
+                            </div>
+                            <div class="qr_code">
+                                <img src="./img-home/qr-code.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="background-color: #3E4095;">
+                <div class="container">
+                    <div class="text_white font_roboto"><h2>CÁC GIẢI ĐẤU KHÁC</h2><hr style="border:#F77923 1px solid"></div>
+                    <div class="row">
+                        <div id="imageCarousel"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid" style="background-color: #F77923;">
+            <div class="container" style="padding:50px 0">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <img src="./icon-head/logo-shb-da-nang-4288-2-9189.png" style="width:308px;height: 70px;"
+                                alt="">
+                        </div>
+                        <div class="row text_white font_roboto">
+                            <p style="font-size: 16px;line-height:25px;margin-top: 15px;">Câu lạc bộ bóng đá <a
+                                    style="text-decoration: none;" href="">SHB Đà Nẵng</a> tiền thân là đội bóng đá Công
+                                nhân Quảng Nam - Đà Nẵng, được thành lập năm 1976 và là một trong những đội bóng giàu
+                                truyền thống bậc nhất của bóng đá Việt Nam</p>
+                        </div>
+                        <div class="row">
+                            <img src="./icon-head/face2-0207.png" alt="">
+                            <img src="./icon-head/insta2-4882.png" alt="">
+                            <img src="./icon-head/witter2-2632.png" alt="">
+                            <img src="./icon-head/vector-smart-object3-1602.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text_white">
+                        <div class="row" style="padding-left:15px ;">
+                            <h3>Thông Tin Liên Hệ</h3>
+                            <hr style="width:90px;float: left;border: 1px solid;margin-top: -5px;">
+                        </div>
+                        <div class="row" style="padding-left:15px ;">
+                            <ul>
+                                <li><img src="./icon-head/icons8-user-18.png" alt=""><span>Tên công ty: Công Ty CP Thể
+                                        Thao SHB Đà Nẵng</span></li>
+                                <li><img src="./icon-head/icons8-location-18.png" alt=""><span>Địa chỉ: Tổ 137 Đà Sơn,
+                                        phường Hòa Khánh Nam, Liên Chiểu, TP Đà Nẵng, Việt Nam</span></li>
+                                <li><img src="./icon-head/icons8-phone-16.png" alt=""><span> Điện thoại: 02366558333
+                                    </span></li>
+                                <li><img src="./icon-head/icons8-mail-16.png" alt=""><span>Email:
+                                        contact@shbdanangfc.com.vn</span></li>
+                                <li><img src="./icon-head/icons8-earth-18.png" alt=""><span>Website:
+                                        shbdanangfc.com.vn</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text_white">
+                        <div class="row">
+                            <h3>Các Giải Đấu</h3>
+                            <hr style="border:1px solid;width: 130px;float: left;margin-top: -5px;">
+                        </div>
+                        <div class="row">
+                            <ul>
+                                <li><a href="">> Tin hoạt động</a></li>
+                                <li><a href="">> HNQG 2023/24</a></li>
+                                <li><a href="">> Cúp Quốc gia</a></li>
+                                <li><a href="">>Hạng Nhì QG</a></li>
+                                <li><a href="">> Các giải trẻ quốc gia</a></li>
+                                <li><a href="">> Bên lề sân cỏ</a></li>
+                                <li><a href="">> V.League 1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".introduce").hover(function () {
+                $(".head_introduce").css("display", "block");
+            })
+            $(".introduce").mouseleave(function () {
+                $(".head_introduce").css("display", "none");
+            })
+            $(".head_introduce").hover(function () {
+                $(".head_introduce").css("display", "block");
+            })
+            $(".head_introduce").mouseleave(function () {
+                $(".head_introduce").css("display", "none");
+            })
+        })
+
+        //hàm chuyển ảnh
+        var arr_img = ["home_head2.jpg", "home_head3.jpg", "home_head4.jpg"];
+        var html = "";
+        arr_img.forEach(element => {
+            let tag_img = '<img class="child_img" src="./img-home/' + element + '" alt="">';
+            html += tag_img;
+        });
+        $(".child_slide").append(html);
+
+        var intervalId;
+
+        function startSlideShow() {
+            intervalId = setInterval(next, 3000);
+        }
+
+        function stopSlideShow() {
+            clearInterval(intervalId);
+        }
+
+        function next() {
+            let path = $("#img_main").attr('src');
+            let arr_data = path.split("/");
+            let path_new = '';
+
+            if (arr_img.indexOf(arr_data[2]) != arr_img.length - 1) {
+                path_new = "../img-home/" + arr_img[arr_img.indexOf(arr_data[2]) + 1];
+            } else {
+                path_new = "../img-home/" + arr_img[0];
+            }
+
+            $("#img_main").attr('src', path_new);
+        }
+
+        function prev() {
+            let path = $("#img_main").attr('src');
+            let arr_data = path.split("/");
+            let path_new = '';
+
+            if (arr_img.indexOf(arr_data[2]) != 0) {
+                path_new = "../img-home/" + arr_img[arr_img.indexOf(arr_data[2]) - 1];
+            } else {
+                path_new = "../img-home/" + arr_img[arr_img.length - 1];
+            }
+
+            $("#img_main").attr('src', path_new);
+        }
+
+        startSlideShow();
+
+        function createImageElement(imageSrc, headingText, paragraphText) {
+            var html = '<div class="col-lg-3 cac_giai_dau text_white font_roboto" id="imageCarousel">' +
+                '<img src="./img-home/img-home-news/' + imageSrc + '" alt="">' +
+                '<h5><a href="#">' + headingText + '</a></h5>' +
+                '<p>' + paragraphText + '</p>' +
+                '</div>';
+        
+            return html;
+        }
+        var imageArray = ["anh1.jpg", "anh2.jpg", "anh3.jpg", "anh4.jpg"];
+        var headingArray = ["SHB Đà Nẵng vững vàng ngôi đầu", "SHB Đà Nẵng giành quyền đi tiếp tại Cúp Quốc gia", "Hòa PVF-CAND, CLB Đà Nẵng giữ ngôi đầu giải Hạng nhất quốc gia 2023/24", "SHB Đà Nẵng chia điểm trước Trường Tươi Bình Phước"];
+        var paragraphArray = ["Chiến thắng 4-0 trước Phú Thọ trên sân Việt Trì chiều 3-12 ở vòng 5 giúp SHB Đà Nẵng xây chắc ngôi đầu tại giải hạng...", "Sau quãng nghỉ gần 1 tháng, SHB Đà Nẵng trở lại ấn tượng bằng chiến thắng 2-0 trước CLB Huế trên sân Hòa Xuân tối 25-11...", "Chia điểm với PVF-CAND, thầy trò HLV Trương Việt Hoàng vẫn giữ ngôi đầu tại giải Hạng nhất quốc gia 2023/24 với 7 đi...", "Chiều 31-10, trên sân vận động Hòa Xuân, SHB Đà Nẵng hòa 2-2 trước Trường Tươi Bình Phước. Kết quả này khiến chuỗi..."];
+
+        var html = "";
+        for (var i = 0; i < imageArray.length; i++) {
+            var imageElement = createImageElement(imageArray[i], headingArray[i], paragraphArray[i]);
+            html += imageElement;
+        }
+        $("#imageCarousel").html(html);
+
+    </script>
+</body>
+
+</html>

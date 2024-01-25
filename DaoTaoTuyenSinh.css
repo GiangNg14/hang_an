@@ -1,0 +1,27 @@
+.head_body_dtts{
+    background-image: url(./img-home/backgr_vechungtoi.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news_dtts{
+    box-shadow: 2px 2px 2px lightgray;
+    margin-right: 50px;
+}
+.news_dtts img{
+    width: 100%;
+    height: auto;
+}
+.news_dtts h4{
+    font-size: 18px;
+    padding: 5px;
+    line-height: 30px;
+}
+.news_dtts p{
+    padding: 5px;
+    color: #888888;
+}

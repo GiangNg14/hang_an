@@ -1,0 +1,140 @@
+.font_roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.font_16px{
+    font-size: 16px;
+}
+.text_white{
+    color: white;
+}
+.cau_thu_2{
+    margin-top: 15px;
+}
+
+.input_search{
+    border-radius: 15px;
+    width: 300px;
+    padding-left: 8px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    position: absolute;
+    margin-left: 66px;
+}
+.head_introduce {
+    list-style: none;
+    background-color: white;
+    padding: 0;
+    display: none;
+    position: absolute;
+    width: 230px;
+    box-shadow: 2px 2px 2px grey;
+    top: 100%;
+    z-index: 999;
+}
+.head_introduce li{
+    border-bottom:1px solid rgb(239, 225, 225) ;
+    padding: 6px 10px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.head_introduce a:hover{
+    color: rgb(54, 54, 138);
+}
+.head_introduce a{
+    text-decoration: none;
+    color: black;
+}
+
+.body-head img{
+    max-width: 100%;
+    height: auto;
+}
+
+.bxh_vdqg{
+    background-color: white;
+    width: 100%;
+    border: 1px solid rgb(244, 236, 236);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.bxh_vdqg tr,td,th{
+    border: 1px solid rgb(207, 198, 198);
+}
+.bxh_vdqg td,th{
+    height: 42px;
+    padding-left: 15px;
+}
+
+.title_news{
+    text-decoration: none;
+    padding-left:15px;
+}
+
+#img-home-news{
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 2px rgb(156, 138, 138);
+}
+
+.top-ghi-ban{
+    background-color: #3E4095;
+}
+
+.title_ghi_ban h3{
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+
+.ban_thang{
+    float: right;
+    margin-right: 30px ;
+    font-weight: 500;
+}
+.cau_thu_ghi_ban{
+    width: 100%;
+    padding: 20px;
+}
+.img_cau_thu{
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.qr_code img{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.cac_giai_dau img{
+    width: 100%; 
+    height: auto;
+    box-shadow: 2px 2px 2px rgb(113, 165, 213);
+}
+.cac_giai_dau a{
+    font-size: 18px;
+    color: white;
+}
+.cac_giai_dau:hover{
+    opacity: 0.6;
+}
+
+.cac_giai_dau p{
+    opacity: 0.8;
+}
+
+.footer li{
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer ul{
+    padding: 0;
+}
+
+.footer li>a{
+    text-decoration: none;
+    color: white;
+}
+

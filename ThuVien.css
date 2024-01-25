@@ -1,0 +1,14 @@
+.head_body_thuvien{
+    background-image: url(./img-home/backgr_vechungtoi.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thuvien_content img{
+    width: 100%;
+    height: auto;
+}
